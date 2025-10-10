@@ -1,0 +1,10 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Avengers: Endgame",
+      "thumbnail": "https://raw.githubusercontent.com/agamairi/moviebrowser/main/1.jpg",
+      "year": 2019
+    }
+  ]
+}
