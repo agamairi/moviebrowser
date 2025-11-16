@@ -102,17 +102,3 @@
 - **Language:** Swift 5+ with Swift Concurrency  
 
 ---
-
-## 🧠 Trade-offs & Next Steps
-
-**Why not a custom disk cache?**  
-For a challenge-sized app, `URLCache` (disk/network bytes) + `NSCache` (decoded JSON/images) delivers great UX with minimal complexity. For a production offline-first app, I’d consider:
-
-- Two-tier domain cache (disk-backed store with TTL)  
-- On-disk image cache and prefetching  
-- Snapshot/UI tests, more ViewModel coverage  
-- SwiftData/Core Data for richer local models  
-- Accessibility: Dynamic Type & high-contrast audits  
-
-**API shape considerations:**  
-Ratings only live in **details**, so rating sort performs a one-time details prefetch in the List VM. This keeps launch fast while enabling rating-based sorting when requested.  
