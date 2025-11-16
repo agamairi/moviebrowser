@@ -102,3 +102,10 @@
 - **Language:** Swift 5+ with Swift Concurrency  
 
 ---
+
+## Screenshots
+
+  <img src="https://github.com/user-attachments/assets/5ffc4969-8745-4d04-b6d3-76353c53f3fb" alt="Screenshot 1 Home Page" width="300" />
+  <img src="https://github.com/user-attachments/assets/a0268d57-e29a-4eae-8e61-f9938ec5c559" alt="Screenshot 2 Detail Page" width="300" />
+  <img src="https://github.com/user-attachments/assets/c71fdd18-b610-49a1-ab92-a35aed328bb0" alt="Screenshot 3 Filter Tab" width="300" />
+  <img src="https://github.com/user-attachments/assets/ca8be1be-4b42-48c7-9d43-eeeefdf4baa3" alt="Screenshot 4 Favourites Page" width="300" />
